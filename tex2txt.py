@@ -22,10 +22,7 @@ def tex2txt(tex, rep_rule):
     return tex
 
 if __name__ == '__main__':
-    while True:
-        tex = input('input latex code: ')     
-        if (len(tex) == 0):
-            break
-        txt = tex2txt(tex, rep_rule)
-        print('\n\n out:')
-        print(txt)
+    tex = input('input latex code: ')     
+    txt = tex2txt(tex, rep_rule)
+    print('\n\n out:')
+    print(txt)

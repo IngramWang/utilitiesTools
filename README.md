@@ -25,3 +25,7 @@ vttext{at}gmail.com
 #### tex2txt 
 
 去除latex代码中的公式与标签，从而方便将文本提交grammarly检查
+
+####textCompare
+
+检查两个文本文件是否相同
